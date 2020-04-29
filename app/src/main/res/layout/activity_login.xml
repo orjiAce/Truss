@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/transparent"
+android:id="@+id/back_btn"
+        android:src="@drawable/back"
+        android:tint="@color/text_color"
+        android:backgroundTint="@color/grey_bg"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <LinearLayout
+        tools:ignore="UnusedAttribute"
+        android:transitionName="loginWrap"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:id="@+id/login_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="Login"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/text_color"
+            android:text="Securely login your account."
+            />
+
+
+
+<TextView
+    android:layout_marginTop="30dp"
+    android:textColor="@color/text_color"
+    android:fontFamily="@font/poppins_semibold"
+    android:text="Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<EditText
+    android:fontFamily="@font/poppins_regular"
+    android:inputType="text"
+    android:layout_marginTop="8dp"
+    android:padding="10dp"
+    android:background="@drawable/input_bg"
+    android:hint="Full Name"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"/>
+
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:fontFamily="@font/poppins_regular"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:background="@drawable/input_bg"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+
+      <Button
+          android:fontFamily="@font/poppins_semibold"
+          android:textColor="@color/white"
+          android:text="Login"
+          android:layout_marginTop="30dp"
+          android:background="@drawable/btn_bg"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"/>
+
+        <TextView
+            android:textSize="13sp"
+            android:id="@+id/reg_link"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Don't have an account? registered?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/interestbtn"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_bg_login"
+            android:layout_width="match_parent"
+            android:text="interest"
+
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

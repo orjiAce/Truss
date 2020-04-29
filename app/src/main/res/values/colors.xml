@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F2DBB</color>
+    <color name="colorPrimaryDark">#0F007A</color>
+    <color name="colorAccent">#BE0025</color>
+    <color name="overLay">#94302E2E</color>
+    <color name="white">#ffffff</color>
+    <color name="activity_bg">#F5F5F5</color>
+    <color name="text_color">#5F5E67</color>
+    <color name="grey_bg">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#1F1F1F</color>
+<color name="blue">#00A388</color>
+</resources>

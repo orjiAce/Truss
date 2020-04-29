@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "709298090600",
+    "firebase_url": "https://truss-c4dac.firebaseio.com",
+    "project_id": "truss-c4dac",
+    "storage_bucket": "truss-c4dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709298090600:android:0afc11985cac8c4495c1dd",
+        "android_client_info": {
+          "package_name": "com.example.truss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709298090600-eo400e6b5ej8da52ug9tme5ndtqo29nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truss",
+            "certificate_hash": "d93435c2425167dd72f1607e568f0980f5791ad0"
+          }
+        },
+        {
+          "client_id": "709298090600-ofnh5okj438ecnv39li531s29ottsfs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvVVPOIZeqAgfKd_v7yeauS9YBxSy_5PU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709298090600-ofnh5okj438ecnv39li531s29ottsfs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
